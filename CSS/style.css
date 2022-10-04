@@ -12,7 +12,7 @@ h1 {
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
     font-family: 'MonteCarlo', cursive;
-    line-height: 2;
+    line-height: 2.5;
 }
 
 h2 {
@@ -38,6 +38,39 @@ h3 {
 
 .bottomcontainer {}
 
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.man {
+    width: 20%;
+}
+
+.code {
+    margin-right: 30px;
+    width: 35%;
+    float: left;
+}
+
+.brain {
+    margin-left: 30px;
+    float: right;
+    width: 35%;
+}
+
+
+/*.code-skill-description {
+    clear: left;
+}
+
+.brain-skill-description {
+    clear: right;
+}
+*/
+
 .topcloud {
     top: 50px;
     right: 300px;
@@ -46,6 +79,6 @@ h3 {
 
 .bottomcloud {
     position: absolute;
-    left: 300px;
+    left: 190px;
     bottom: 300px;
 }
